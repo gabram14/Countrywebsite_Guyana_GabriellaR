@@ -1,7 +1,45 @@
 .banner{
-  background-color:red ;
-  color:black ;
+    text-align: center;
+    color:aliceblue;
+   
 }
- nav a :hover{
- border-bottom: 2px soild black   
+
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+   url("https://travelingted.com/wp-content/uploads/2012/12/Kaieteur9-330x248.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+.container{
+    display:flex;
+    text-align: center;
+}
+ 
+nav a{
+  color:aliceblue;
+  margin:0 10px 0 10px;
+  display:inline-block;
+  width:20%;
+  text-align:center;
+  background-color: red;
+}
+
+nav a :hover{
+ border-bottom: 2px soild black ;
  }
+
+ a{
+  text-decoration: none;
+}
+
+#country{
+  
+}
