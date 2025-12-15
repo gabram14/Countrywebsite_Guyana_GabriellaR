@@ -20,28 +20,18 @@ p{
   position: relative;
 }
 
-.facts1{
-  display:flex;
+.home{
+  display: flex;
+  flex-direction: row;
 }
 
-.fact1 div{
-  flex:1;
-}
-
-.facts2{
-  display:flex;
-}
-
-.fact2 div{
-  flex:1;
-}
-
-.facts3{
-  display:flex;
-}
-
-.fact3 div{
-  flex:1;
+.home{
+ flex:1;
+ margin:70px;
+ padding: 10px;
+ border:soild black 2px;
+ border-radius: 5px;
+ box-shadow: white 2px 2px;
 }
 
 
