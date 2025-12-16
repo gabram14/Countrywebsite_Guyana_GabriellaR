@@ -32,9 +32,15 @@ p{
  border-radius: 5px;
 
 }
+#fact1 {
+  display: flex;
+  flex:1;
+}
 
-
-
+#fact1 div{
+   flex:1;
+   align-items: center;
+}
 
 .container{
     display:flex;
