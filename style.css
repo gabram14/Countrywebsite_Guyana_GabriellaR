@@ -24,15 +24,15 @@ p{
   display: flex;
   flex-direction: row;
 }
-
 .home{
  flex:1;
  margin:70px;
  padding: 10px;
- border:soild black 2px;
+ border:soild white 2px;
  border-radius: 5px;
- box-shadow: white 2px 2px;
+
 }
+
 
 
 
@@ -63,7 +63,7 @@ nav a :hover{
 }
 
 #footer{
-  background-color: aliceblue;
+  background-color:gold ;
   color:black;
   padding: 20px;
 }
